@@ -40,3 +40,10 @@ p {
     max-width: 90%;
   }
 }
+
+@media (max-height: 973px) and (orientation: landscape) {
+  .flex-container {
+    padding-top: 4rem;
+    height: auto;
+  }
+}

@@ -1,0 +1,42 @@
+body {
+  font-family: EB-Garamond, serif;
+  background-color: #ddd;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 3rem;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 8px 5px 23px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #444;
+  margin: (0, 1rem);
+}
+
+.p2 {
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  .flex-container {
+    flex-direction: column;
+    padding-top: 8rem;
+  }
+  img {
+    max-width: 90%;
+  }
+}
